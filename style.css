@@ -1,0 +1,95 @@
+body{
+        background: linear-gradient(to right, #FFD700, #FF1493);  
+}
+
+.container{
+	     width: 350px;
+	     height: 500px;
+	     padding-bottom: 20px;
+	     position: absolute;
+	     top:40%;
+	     left: 50%;
+	     transform: translate(-50%, -50%);
+             padding: 20px 50px 20px 50px;
+}
+
+#fullname {
+              width: 200px;
+              height: 25px;
+              font-family:Georgia, 'Times New Roman', Times, serif;
+              font-size: 1em;
+}
+
+#username {
+        width: 200px;
+        height: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+}
+
+#id {
+        width: 200px;
+        height: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+}
+
+#email {
+        width: 200px;
+        height: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+}
+
+#dob {
+        width: 200px;
+        height: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+}
+
+#file{
+        width: 200px;
+        height: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+}
+
+#country {
+        width: 200px;
+        height: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+}
+
+#password {
+              width: 200px;
+              height: 25px;
+              font-family:Georgia, 'Times New Roman', Times, serif;
+              font-size: 1em;
+}
+
+#agreement {
+             transform: scale(1.5);
+             margin: 5px;
+}
+
+::placeholder { 
+                 color: rgb(169, 169, 169);
+}                 
+
+a[href] { text-decoration: none;
+}
+
+button {
+         border: 50px;
+         line-height: 35px;
+         border-radius: 25px;
+         cursor: pointer;
+         padding: 10px;
+         width: 300px;
+}
+
+button:hover { 
+        background:linear-gradient(to right, red, yellow) ;
+}

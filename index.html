@@ -7,13 +7,14 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form >
-        <fieldset>
-                
+    <div class="container">
+        <form>
+            
                 <h1> 
                     Registration Form
                 </h1> 
 
+        
           <label for="fullname"> <strong>Full Name:</strong> </label> 
         <input type="text" id="fullname" placeholder="First and Last Name" required > 
         <br><br>  
@@ -46,7 +47,7 @@
            <br><br>
 
         <label for="password"> <strong> Password: </strong> </label>
-        <input type="password" id="Password" name="password" placeholder="password" pattern="(?=.*\d) (?=.*[a-z]) (?=.*{A-Z})
+        <input type="password" id="password" name="password" placeholder="password" pattern="(?=.*\d) (?=.*[a-z]) (?=.*{A-Z})
          (?=.*[@#$%&*=]).{6}" minlength="6" maxlength="20" required>
         <br>
         <em style="color: blue;">i</em>  <small> Passwords must be at least 6 characters long, include
@@ -58,15 +59,18 @@
         (?=.*[@#$%&*=]).{6}" minlength="6" maxlength="20" required>  
         <br> 
         
-            <p> <input type="checkbox" id="Agreement" required> 
+            <p> <input type="checkbox" id="agreement" required> 
                 <label for="Agreement">I have agreed to the
                     <a href="https://www.amazon.com/gp/help/customer/display.html/ref=ap_register
                     _notification_condition_of_use?ie=UTF8&nodeId=508088"> Terms and Conditions </a> </label>
             </p>    
        
+        
         <button type="submit">Submit</button>  
-    </fieldset>
+        
+    
 </form> 
+    </div>
 
 
  
