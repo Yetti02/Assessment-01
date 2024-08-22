@@ -1,11 +1,13 @@
 body{
-        background: linear-gradient(to right, #FFD700, #ff1493);  
+        background: linear-gradient(to right, #FFD700, #ff1493);
+        margin: 20px 15px 20px 15px;
+        padding: 10px 20px 10px 20px; 
 }
 
 .container{
 	     width: 350px;
-	     height: 500px;
-	     padding-bottom: 20px;
+	     height: 540px;
+	     padding-bottom: 10px;
 	     position: absolute;
 	     top:40%;
 	     left: 50%;
@@ -79,6 +81,12 @@ body{
 }                 
 
 a[href] { text-decoration: none;
+           transition: color 0.3s;
+           text-decoration: 0.3s;
+}
+
+a:hover {
+        background:linear-gradient(to right, #ff1493 , yellow);
 }
 
 button {
@@ -91,5 +99,5 @@ button {
 }
 
 button:hover { 
-        background:linear-gradient(to right, #ff1493 , yellow) ;
+        background:linear-gradient(to right, #ff1493 , yellow);
 }
