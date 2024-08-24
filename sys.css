@@ -1,0 +1,115 @@
+body{ 
+    background-color: whitesmoke;
+    margin: 35px 15px;
+    padding: 20px 25px; 
+}
+
+.container{
+     width: 35%;
+     height: auto;
+         overflow: auto;
+     position:absolute;
+         border: 3px solid transparent;
+         padding:0 0 0 20px;
+         margin-bottom: 20px;
+     top:50%;
+     left: 50%;
+         font-weight: 400;
+         margin: -10px 0 20px 0;  
+         padding: 10px 0 10px 0;
+         width: 100%;
+         box-sizing: border-box;
+         font-family:Georgia, 'Times New Roman', Times, serif; 
+         text-align: center; 
+} 
+
+h1{
+    background: linear-gradient(to right, #FFD700, #ff1493);
+    font-size: 35px;
+    font-weight: 400;
+    margin: -10px 0 20px 0;  
+    padding: 10px 0 10px 0;
+    width: 100%;
+    box-sizing: border-box;
+    position: relative;
+   /* margin: 0 0 20px 0;
+    padding: 10px 0 20px 0;*/
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-align: center; 
+}                
+
+#fullname {
+          width: 200px;
+          height: 25px;
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 1em;
+          border-radius: 15px;
+}
+
+#username {
+        width: 200px;
+        height: 25px;
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        border-radius: 15px;
+}
+
+#dob {
+    width: 200px;
+    height: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+#email {
+    width: 200px;
+    height: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+#file{
+    width: 200px;
+    height: 25px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius: 15px;
+}      
+
+#password {
+         width: 200px;
+         height: 25px;
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         font-size: 1em;
+         border-radius: 15px;
+}
+    
+::placeholder { 
+                color: rgb(169, 169, 169);
+}                 
+    
+a[href] { text-decoration: none;
+               transition: color 0.3s;
+               text-decoration: 0.3s;
+}
+    
+a:hover {
+            background:linear-gradient(to right, #ff1493 , yellow);
+}
+    
+button {
+             border: 50px;
+             line-height: 35px;
+             border-radius: 25px;
+             cursor: pointer;
+             padding: 10px;
+             margin-bottom: 20px;
+             width: 85%;
+             background:linear-gradient(to right, #ff1493 , yellow);
+}
+
+button:hover {
+            color: #ff1493;
+}
