@@ -1,0 +1,117 @@
+body{ 
+    background-color: whitesmoke;
+    display: flex; 
+    justify-content: center; /* Centers content horizontally */  
+    align-items: center;    /* Centers content vertically */  
+    height: 100vh;        
+    margin: 0;  
+    padding: 0;
+}
+
+    
+.container{
+    background-color: gainsboro;
+    padding: 20px;
+    padding-bottom: 10px; 
+    width: 35%;  
+    height: 90vh;     
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */  
+    margin: 20px 0;
+} 
+
+ @media only screen and (max-width:700px) {
+    .container{
+        width: 80%;
+        height: 80%;
+    } 
+ }
+
+h1{
+    background: linear-gradient(to right, #FFD700, #ff1493);
+    color: black;
+    font-size: 35px;
+    font-weight: 400;
+    padding: 15px;
+    text-transform: uppercase; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    font-family:Georgia, 'Times New Roman', Times, serif; 
+    text-align: center; 
+    margin: -20px -20px 20px -20px; /* Negative margins extends the background */ 
+}                
+
+#fullname {
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 1rem;
+          border-radius: 8px; 
+          outline: none;
+          border: none;
+          border:  2px solid rgb(169, 169, 169);
+}
+
+#username {
+        font-family:Georgia, 'Times New Roman', Times, serif;
+        font-size: 1em;
+        border-radius: 15px;
+}
+
+#dob {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+#email {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius: 15px;
+}
+
+#file{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
+    border-radius: 15px;
+}   
+
+#country {
+          font-family:Georgia, 'Times New Roman', Times, serif;
+          font-size: 1em;
+          border-radius: 15px;
+}
+
+#password {
+         font-family:Georgia, 'Times New Roman', Times, serif;
+         font-size: 1em;
+         border-radius: 15px;
+}
+
+::placeholder { 
+                color: rgb(169, 169, 169);
+}                 
+    
+a[href] { text-decoration: none;
+               transition: color 0.3s;
+               text-decoration: 0.3s;
+}
+    
+a:hover {
+            background:linear-gradient(to right, #ff1493 , yellow);
+}
+    
+button {
+             border: 50px;
+             line-height: 33px;
+             font-weight: bold;
+             font-size: 18px;
+             font-family: Georgia, 'Times New Roman', Times, serif;
+             border-radius: 25px;
+             cursor: pointer;
+             padding: 10px;
+             margin-bottom: 20px;
+             width: 85%;
+             background:linear-gradient(to right, #ff1493 , yellow);
+}
+
+button:hover {
+            color: #ff1493;
+}
