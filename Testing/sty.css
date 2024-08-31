@@ -1,31 +1,30 @@
 body{ 
-    background-color: whitesmoke;
-    display: flex; 
-    justify-content: center; /* Centers content horizontally */  
-    align-items: center;    /* Centers content vertically */  
-    height: 100vh;        
+    background-color: whitesmoke;   
     margin: 0;  
     padding: 0;
+    overflow: hidden;
 }
 
     
 .container{
     background-color: gainsboro;
+    overflow: auto;
     padding: 20px;
     padding-bottom: 10px; 
-    width: 35%;  
-    height: 90vh;     
+    width: 500px;  
+    height: 600px;     
     border-radius: 8px; 
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Shadow effect */  
-    margin: 20px 0;
+    margin: 20px auto;
+    box-sizing: border-box;
 } 
 
  @media only screen and (max-width:700px) {
     .container{
-        width: 80%;
+        width: 90%;
         height: 80%;
     } 
- }
+ } 
 
 h1{
     background: linear-gradient(to right, #FFD700, #ff1493);
@@ -37,53 +36,74 @@ h1{
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
     font-family:Georgia, 'Times New Roman', Times, serif; 
     text-align: center; 
-    margin: -20px -20px 20px -20px; /* Negative margins extends the background */ 
-}                
+    margin: auto;
+    margin-bottom: 20px;
+}        
 
-#fullname {
+ #fullname {
           font-family:Georgia, 'Times New Roman', Times, serif;
-          font-size: 1rem;
-          border-radius: 8px; 
-          outline: none;
-          border: none;
-          border:  2px solid rgb(169, 169, 169);
+          font-size: 1em;
+          border-radius: 8px;
+              line-height: 1.2;
+              outline: none;
+               border:  0 solid rgb(169, 169, 169);
 }
 
 #username {
         font-family:Georgia, 'Times New Roman', Times, serif;
         font-size: 1em;
-        border-radius: 15px;
+        border-radius: 8px;
+              line-height: 1.2;
+              outline: none;
+               border:  0 solid rgb(169, 169, 169);
 }
 
 #dob {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    border-radius: 15px;
+    border-radius: 8px;
+              line-height: 1.2;
+              outline: none;
+               border:  0 solid rgb(169, 169, 169);
 }
 
 #email {
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    border-radius: 15px;
+    border-radius: 8px;
+              line-height: 1.2;
+              outline: none;
+               border:  0 solid rgb(169, 169, 169);
 }
 
 #file{
     font-family:Georgia, 'Times New Roman', Times, serif;
     font-size: 1em;
-    border-radius: 15px;
+    border-radius: 8px;
+              line-height: 1.2;
+              outline: none;
+               border:  0 solid rgb(169, 169, 169);
 }   
 
 #country {
           font-family:Georgia, 'Times New Roman', Times, serif;
           font-size: 1em;
-          border-radius: 15px;
+          border-radius: 8px;
+              line-height: 1.2;
+              outline: none;
+               border:  0 solid rgb(169, 169, 169);
 }
 
 #password {
          font-family:Georgia, 'Times New Roman', Times, serif;
          font-size: 1em;
-         border-radius: 15px;
+         border-radius: 8px;
+              line-height: 1.2;
+              outline: none;
+               border:  0 solid rgb(169, 169, 169);
 }
+
+*/
 
 ::placeholder { 
                 color: rgb(169, 169, 169);
@@ -92,6 +112,7 @@ h1{
 a[href] { text-decoration: none;
                transition: color 0.3s;
                text-decoration: 0.3s;
+               line-height: 1.2;
 }
     
 a:hover {
