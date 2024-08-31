@@ -3,3 +3,5 @@ name, username, birthday, email, field for file uploads, allow users to select c
 
 Using appropriate input types(eg type="pwd" for password fields. Adding basic form validation attributes.
 Adding labels for each input field. Adding a checkbox for users to agree to terms and conditions.
+
+The html code has been styled using css.
